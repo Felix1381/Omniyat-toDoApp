@@ -1,0 +1,18 @@
+.edit-task-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.edit-task-button, .cancel-edit-button {
+    margin-left: 10px;
+}
+
+.cancel-edit-button {
+    background-color: #6c757d;
+}
+
+.cancel-edit-button:hover {
+    background-color: #5a6268;
+}
