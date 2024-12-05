@@ -4,7 +4,6 @@ const taskController = require('./task.controller');
 
 const router = express.Router();
 
-// Route pour mettre à jour la valeur completed d'une tâche
 router.put('/:id/complete',taskController.completeTask);
 router.get('/', taskController.getTasks);
 router.get('/:id', taskController.getTask);
